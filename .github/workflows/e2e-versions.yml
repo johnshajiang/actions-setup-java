@@ -30,7 +30,8 @@ jobs:
             'microsoft',
             'semeru',
             'corretto',
-            'dragonwell'
+            'dragonwell',
+            'kona'
           ] # internally 'adopt-hotspot' is the same as 'adopt'
         version: ['21', '11', '17']
         exclude:
@@ -38,6 +39,8 @@ jobs:
             version: 8
           - distribution: dragonwell
             os: macos-13
+          - distribution: kona
+            version: 21
         include:
           - distribution: oracle
             os: macos-13

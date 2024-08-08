@@ -10,6 +10,7 @@ import {SemeruDistribution} from './semeru/installer';
 import {CorrettoDistribution} from './corretto/installer';
 import {OracleDistribution} from './oracle/installer';
 import {DragonwellDistribution} from './dragonwell/installer';
+import {KonaDistribution} from './kona/installer';
 
 enum JavaDistribution {
   Adopt = 'adopt',
@@ -23,7 +24,8 @@ enum JavaDistribution {
   Semeru = 'semeru',
   Corretto = 'corretto',
   Oracle = 'oracle',
-  Dragonwell = 'dragonwell'
+  Dragonwell = 'dragonwell',
+  Kona = 'kona'
 }
 
 export function getJavaDistribution(
@@ -64,6 +66,8 @@ export function getJavaDistribution(
       return new OracleDistribution(installerOptions);
     case JavaDistribution.Dragonwell:
       return new DragonwellDistribution(installerOptions);
+    case JavaDistribution.Kona:
+      return new KonaDistribution(installerOptions);
     default:
       return null;
   }

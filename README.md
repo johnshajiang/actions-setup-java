@@ -108,6 +108,7 @@ Currently, the following distributions are supported:
 | `semeru` | IBM Semeru Runtime Open Edition | [Link](https://developer.ibm.com/languages/java/semeru-runtimes/downloads/) | [Link](https://openjdk.java.net/legal/gplv2+ce.html) |
 | `oracle` | Oracle JDK | [Link](https://www.oracle.com/java/technologies/downloads/) | [Link](https://java.com/freeuselicense)
 | `dragonwell` | Alibaba Dragonwell JDK | [Link](https://dragonwell-jdk.io/) | [Link](https://www.aliyun.com/product/dragonwell/)
+| `kona` | Tencent Kona JDK | [Link](https://tencent.github.io/konajdk/) | [Link](https://tencent.github.io/konajdk/LICENSE.txt)
 
 **NOTE:** The different distributors can provide discrepant list of available versions / supported configurations. Please refer to the official documentation to see the list of supported versions.
 
@@ -257,6 +258,7 @@ In the example above multiple JDKs are installed for the same job. The result af
   - [Amazon Corretto](docs/advanced-usage.md#Amazon-Corretto)
   - [Oracle](docs/advanced-usage.md#Oracle)
   - [Alibaba Dragonwell](docs/advanced-usage.md#Alibaba-Dragonwell)
+  - [Tencent Kona](docs/advanced-usage.md#Tencent-Kona)
 - [Installing custom Java package type](docs/advanced-usage.md#Installing-custom-Java-package-type)
 - [Installing custom Java architecture](docs/advanced-usage.md#Installing-custom-Java-architecture)
 - [Installing custom Java distribution from local file](docs/advanced-usage.md#Installing-Java-from-local-file)
