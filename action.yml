@@ -1,6 +1,11 @@
 name: 'Setup Tencent Kona JDK'
 description: 'Set up a specific version of the Java JDK and add the
    command-line tools to the PATH'
+
+branding:
+  icon: 'download-cloud'
+  color: 'blue'
+
 author: 'GitHub'
 inputs:
   java-version:
